@@ -21,7 +21,6 @@ The application is built with a combination of functioning game-logic components
 
 ### Fully Functional Pages
 - **Home (`/`)**: High-contrast landing page with standard routing.
-- **Game Selection (`/games`)**: A fully responsive grid of structured game cards displaying dynamic properties, icons, and avatars.
 - **Game Page (`/games/:difficulty`)**: The complete interactive Sudoku engine! 
   - Loads JSON puzzle datasets (supports entirely different layouts like Easy 6x6 or Normal 9x9 modes).
   - Relies completely on native Context API and dynamically handles `localStorage` synchronization (game board, difficulty, and timer automatically persist across full page refreshes).
@@ -31,6 +30,7 @@ The application is built with a combination of functioning game-logic components
 
 ### Mock UI Pages 
 *These pages are heavily styled to match the dark minimalism design system but are intentionally isolated mock interfaces with no backend integrations.*
+- **Game Selection (`/games`)**: A fully responsive grid of structured game cards displaying dynamic properties, icons, and avatars. (hard coded)
 - **High Scores (`/scores`)**: A static but interactive dashboard showcasing dynamic tab filtering logic, beautifully displaying a hardcoded leaderboard containing various names and real circular profile avatars.
 - **Login (`/login`)**: Complete UI shell for a standard credential authentication screen.
 - **Register (`/register`)**: Beautifully boxed password confirmation and sign-up form.
